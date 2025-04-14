@@ -1,0 +1,1483 @@
+python main.py
+[15:57:18] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_15-57-18.png
+[15:57:19] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_15-57-18.png
+[15:57:20] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_15-57-19.png
+[15:57:21] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_15-57-20.png
+Regression metrics for bond_sell prediction:
+MAE: 0.10714139686752223
+MSE: 0.018142252704980273
+R²: 0.9727276418770803
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.560917
+BondSELL             0.405925
+RollingSTD_SELL      0.343248
+DiffFromTrendSELL   -0.154992
+MomentumSELL        -0.024276
+VolumeSELL          -0.000096
+dtype: float64
+[15:57:21] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_15-57-21.png
+[15:57:40] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_15-57-39.png
+[15:57:40] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_15-57-40.png
+[16:05:39] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_16-05-38.png
+[16:05:39] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_16-05-39.png
+Итоговый баланс: 100733.446092964
+Количество совершённых сделок: 18
+[16:05:39] Запуск эксперимента: future_window=100; rolling_window=10
+[16:07:27] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-07-26.png
+[16:07:28] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-07-27.png
+[16:07:28] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-07-28.png
+[16:07:29] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-07-29.png
+Regression metrics for bond_sell prediction:
+MAE: 0.06609116294281203
+MSE: 0.0074196220689603356
+R²: 0.988947852129213
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.583514
+BondSELL             0.406428
+DiffFromTrendSELL   -0.177087
+MomentumSELL         0.117517
+RollingSTD_SELL     -0.081345
+VolumeSELL          -0.000086
+dtype: float64
+[16:07:30] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_16-07-29.png
+[16:07:48] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_16-07-47.png
+[16:07:48] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_16-07-48.png
+[16:15:34] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_16-15-33.png
+[16:15:34] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_16-15-34.png
+Итоговый баланс: 100004.90070866692
+Количество совершённых сделок: 7
+[16:15:34] Итоговый баланс: 100004.90070866692, Кол-во сделок: 7
+[16:15:34] Запуск эксперимента: future_window=100; rolling_window=20
+[16:17:18] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-17-18.png
+[16:17:19] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-17-19.png
+[16:17:20] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-17-19.png
+[16:17:21] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-17-20.png
+Regression metrics for bond_sell prediction:
+MAE: 0.06455894623418504
+MSE: 0.007105155318940465
+R²: 0.9894156217090393
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.561774
+BondSELL             0.428738
+DiffFromTrendSELL   -0.133036
+MomentumSELL         0.056051
+RollingSTD_SELL     -0.036118
+VolumeSELL          -0.000077
+dtype: float64
+[16:17:21] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_16-17-21.png
+[16:17:39] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_16-17-38.png
+[16:17:39] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_16-17-39.png
+[16:25:25] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_16-25-24.png
+[16:25:25] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_16-25-25.png
+Итоговый баланс: 99931.38333060312
+Количество совершённых сделок: 2
+[16:25:25] Итоговый баланс: 99931.38333060312, Кол-во сделок: 2
+[16:25:25] Запуск эксперимента: future_window=100; rolling_window=50
+[16:27:07] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-27-07.png
+[16:27:08] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-27-07.png
+[16:27:09] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-27-08.png
+[16:27:09] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-27-09.png
+Regression metrics for bond_sell prediction:
+MAE: 0.062284289584493856
+MSE: 0.006635609404480553
+R²: 0.9901132518496558
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.538996
+BondSELL             0.452547
+DiffFromTrendSELL   -0.086449
+MomentumSELL        -0.036773
+RollingSTD_SELL      0.011580
+VolumeSELL          -0.000063
+dtype: float64
+[16:27:10] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_16-27-09.png
+[16:27:27] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_16-27-27.png
+[16:27:28] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_16-27-27.png
+[16:35:09] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_16-35-08.png
+[16:35:09] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_16-35-09.png
+Итоговый баланс: 99925.70789301218
+Количество совершённых сделок: 6
+[16:35:09] Итоговый баланс: 99925.70789301218, Кол-во сделок: 6
+[16:35:09] Запуск эксперимента: future_window=100; rolling_window=100
+[16:36:52] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-36-51.png
+[16:36:53] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-36-52.png
+[16:36:53] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-36-53.png
+[16:36:54] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-36-54.png
+Regression metrics for bond_sell prediction:
+MAE: 0.06064588641179476
+MSE: 0.006282334866189214
+R²: 0.9906367406947391
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.523203
+BondSELL             0.469409
+MomentumSELL        -0.094829
+DiffFromTrendSELL   -0.053794
+RollingSTD_SELL     -0.007680
+VolumeSELL          -0.000055
+dtype: float64
+[16:36:55] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_16-36-54.png
+[16:37:14] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_16-37-13.png
+[16:37:14] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_16-37-14.png
+[16:45:01] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_16-45-01.png
+[16:45:02] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_16-45-01.png
+Итоговый баланс: 99925.70789301218
+Количество совершённых сделок: 6
+[16:45:02] Итоговый баланс: 99925.70789301218, Кол-во сделок: 6
+[16:45:02] Запуск эксперимента: future_window=100; rolling_window=200
+[16:46:43] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-46-42.png
+[16:46:43] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-46-43.png
+[16:46:44] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-46-44.png
+[16:46:45] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-46-44.png
+Regression metrics for bond_sell prediction:
+MAE: 0.05963597209961539
+MSE: 0.006053349047040289
+R²: 0.9909721526146062
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.503387
+BondSELL             0.490028
+MomentumSELL        -0.148061
+DiffFromTrendSELL   -0.013359
+RollingSTD_SELL     -0.008394
+VolumeSELL          -0.000049
+dtype: float64
+[16:46:45] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_16-46-45.png
+[16:47:03] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_16-47-02.png
+[16:47:03] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_16-47-03.png
+^[[C[16:54:38] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_16-54-37.png
+[16:54:39] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_16-54-38.png
+Итоговый баланс: 99927.27105638436
+Количество совершённых сделок: 4
+[16:54:39] Итоговый баланс: 99927.27105638436, Кол-во сделок: 4
+[16:54:39] Запуск эксперимента: future_window=100; rolling_window=500
+[16:56:21] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-56-21.png
+[16:56:22] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-56-21.png
+[16:56:23] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_16-56-22.png
+[16:56:23] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_16-56-23.png
+Regression metrics for bond_sell prediction:
+MAE: 0.05894485265374187
+MSE: 0.005852385359783961
+R²: 0.9912553840062144
+
+Feature importance (по абсолютной величине коэффициентов):
+BondSELL             0.509712
+TrendSELL            0.485559
+MomentumSELL        -0.194378
+RollingSTD_SELL     -0.088519
+DiffFromTrendSELL    0.024153
+VolumeSELL          -0.000043
+dtype: float64
+[16:56:24] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_16-56-23.png
+[16:56:41] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_16-56-41.png
+[16:56:42] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_16-56-41.png
+[17:04:22] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_17-04-22.png
+[17:04:23] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_17-04-22.png
+Итоговый баланс: 99927.27105638436
+Количество совершённых сделок: 4
+[17:04:23] Итоговый баланс: 99927.27105638436, Кол-во сделок: 4
+[17:04:23] Запуск эксперимента: future_window=100; rolling_window=1000
+[17:06:04] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-06-04.png
+[17:06:05] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-06-04.png
+[17:06:05] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-06-05.png
+[17:06:06] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-06-06.png
+Regression metrics for bond_sell prediction:
+MAE: 0.05867394772396641
+MSE: 0.005773381491697717
+R²: 0.9913472189842238
+
+Feature importance (по абсолютной величине коэффициентов):
+BondSELL             0.525433
+TrendSELL            0.471696
+RollingSTD_SELL     -0.228329
+MomentumSELL        -0.223441
+DiffFromTrendSELL    0.053736
+VolumeSELL          -0.000044
+dtype: float64
+[17:06:07] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_17-06-06.png
+[17:06:24] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_17-06-24.png
+[17:06:25] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_17-06-24.png
+[17:14:09] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_17-14-09.png
+[17:14:10] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_17-14-09.png
+Итоговый баланс: 99927.27105638436
+Количество совершённых сделок: 4
+[17:14:10] Итоговый баланс: 99927.27105638436, Кол-во сделок: 4
+[17:14:10] Запуск эксперимента: future_window=100; rolling_window=1500
+[17:15:52] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-15-51.png
+[17:15:52] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-15-52.png
+[17:15:53] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-15-53.png
+[17:15:54] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-15-53.png
+Regression metrics for bond_sell prediction:
+MAE: 0.05886703321626279
+MSE: 0.005808939625940242
+R²: 0.9912724481704728
+
+Feature importance (по абсолютной величине коэффициентов):
+BondSELL             0.535547
+TrendSELL            0.462184
+RollingSTD_SELL     -0.268706
+MomentumSELL        -0.239485
+DiffFromTrendSELL    0.073362
+VolumeSELL          -0.000045
+dtype: float64
+[17:15:54] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_17-15-54.png
+[17:16:12] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_17-16-11.png
+[17:16:12] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_17-16-12.png
+[17:23:52] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_17-23-51.png
+[17:23:52] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_17-23-52.png
+Итоговый баланс: 99927.27105638436
+Количество совершённых сделок: 4
+[17:23:52] Итоговый баланс: 99927.27105638436, Кол-во сделок: 4
+[17:23:52] Запуск эксперимента: future_window=500; rolling_window=10
+[17:25:34] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-25-33.png
+[17:25:35] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-25-34.png
+[17:25:35] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-25-35.png
+[17:25:36] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-25-36.png
+Regression metrics for bond_sell prediction:
+MAE: 0.09293965269410144
+MSE: 0.014141235320463443
+R²: 0.9788828451027317
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.580886
+BondSELL             0.397159
+DiffFromTrendSELL   -0.183728
+MomentumSELL         0.122882
+RollingSTD_SELL      0.017847
+VolumeSELL          -0.000129
+dtype: float64
+[17:25:36] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_17-25-36.png
+[17:25:54] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_17-25-53.png
+[17:25:54] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_17-25-54.png
+[17:33:35] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_17-33-34.png
+[17:33:36] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_17-33-35.png
+Итоговый баланс: 102646.12286440712
+Количество совершённых сделок: 38
+[17:33:36] Итоговый баланс: 102646.12286440712, Кол-во сделок: 38
+[17:33:36] Запуск эксперимента: future_window=500; rolling_window=20
+[17:35:17] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-35-16.png
+[17:35:17] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-35-17.png
+[17:35:18] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-35-17.png
+[17:35:19] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-35-18.png
+Regression metrics for bond_sell prediction:
+MAE: 0.09114973816563593
+MSE: 0.013665492565640576
+R²: 0.9795920369254816
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.572815
+BondSELL             0.405789
+DiffFromTrendSELL   -0.167027
+MomentumSELL         0.088695
+RollingSTD_SELL      0.073924
+VolumeSELL          -0.000118
+dtype: float64
+[17:35:19] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_17-35-19.png
+[17:35:37] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_17-35-36.png
+[17:35:37] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_17-35-37.png
+[17:43:18] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_17-43-17.png
+[17:43:19] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_17-43-18.png
+Итоговый баланс: 103870.86829400732
+Количество совершённых сделок: 48
+[17:43:19] Итоговый баланс: 103870.86829400732, Кол-во сделок: 48
+[17:43:19] Запуск эксперимента: future_window=500; rolling_window=50
+[17:45:00] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-44-59.png
+[17:45:00] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-45-00.png
+[17:45:01] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-45-01.png
+[17:45:02] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-45-01.png
+Regression metrics for bond_sell prediction:
+MAE: 0.08766728545752307
+MSE: 0.0127572295608885
+R²: 0.9809444744198088
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.568125
+BondSELL             0.411795
+DiffFromTrendSELL   -0.156331
+RollingSTD_SELL      0.123592
+MomentumSELL         0.024862
+VolumeSELL          -0.000101
+dtype: float64
+[17:45:02] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_17-45-02.png
+[17:45:20] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_17-45-19.png
+[17:45:20] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_17-45-20.png
+[17:53:01] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_17-53-00.png
+[17:53:01] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_17-53-01.png
+Итоговый баланс: 102483.39225670755
+Количество совершённых сделок: 19
+[17:53:01] Итоговый баланс: 102483.39225670755, Кол-во сделок: 19
+[17:53:01] Запуск эксперимента: future_window=500; rolling_window=100
+[17:54:42] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-54-42.png
+[17:54:43] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-54-42.png
+[17:54:44] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_17-54-43.png
+[17:54:45] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_17-54-44.png
+Regression metrics for bond_sell prediction:
+MAE: 0.08414249167156829
+MSE: 0.011835633927640487
+R²: 0.9823152326141323
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.570985
+BondSELL             0.410594
+DiffFromTrendSELL   -0.160391
+RollingSTD_SELL      0.094890
+MomentumSELL        -0.007887
+VolumeSELL          -0.000087
+dtype: float64
+[17:54:45] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_17-54-45.png
+[17:55:03] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_17-55-02.png
+[17:55:03] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_17-55-03.png
+[18:02:45] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_18-02-45.png
+[18:02:46] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_18-02-45.png
+Итоговый баланс: 101728.41983500948
+Количество совершённых сделок: 22
+[18:02:46] Итоговый баланс: 101728.41983500948, Кол-во сделок: 22
+[18:02:46] Запуск эксперимента: future_window=500; rolling_window=200
+[18:04:28] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-04-27.png
+[18:04:28] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-04-28.png
+[18:04:29] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-04-28.png
+[18:04:30] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-04-29.png
+Regression metrics for bond_sell prediction:
+MAE: 0.08068944193746069
+MSE: 0.01095144949548038
+R²: 0.9836252976852256
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.567673
+BondSELL             0.415694
+DiffFromTrendSELL   -0.151978
+RollingSTD_SELL      0.043910
+MomentumSELL        -0.042655
+VolumeSELL          -0.000075
+dtype: float64
+[18:04:30] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_18-04-30.png
+[18:04:48] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_18-04-47.png
+[18:04:48] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_18-04-48.png
+[18:12:30] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_18-12-29.png
+[18:12:30] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_18-12-30.png
+Итоговый баланс: 101612.9198659285
+Количество совершённых сделок: 12
+[18:12:30] Итоговый баланс: 101612.9198659285, Кол-во сделок: 12
+[18:12:30] Запуск эксперимента: future_window=500; rolling_window=500
+[18:14:11] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-14-11.png
+[18:14:12] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-14-12.png
+[18:14:13] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-14-12.png
+[18:14:14] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-14-13.png
+Regression metrics for bond_sell prediction:
+MAE: 0.07631095092225106
+MSE: 0.009775919032528151
+R²: 0.985355788246441
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.555833
+BondSELL             0.430812
+RollingSTD_SELL     -0.152619
+DiffFromTrendSELL   -0.125021
+MomentumSELL        -0.090495
+VolumeSELL          -0.000062
+dtype: float64
+[18:14:14] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_18-14-14.png
+[18:14:32] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_18-14-31.png
+[18:14:32] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_18-14-32.png
+[18:22:10] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_18-22-09.png
+[18:22:10] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_18-22-10.png
+Итоговый баланс: 102022.36250465979
+Количество совершённых сделок: 16
+[18:22:10] Итоговый баланс: 102022.36250465979, Кол-во сделок: 16
+[18:22:10] Запуск эксперимента: future_window=500; rolling_window=1000
+[18:23:51] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-23-51.png
+[18:23:52] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-23-51.png
+[18:23:53] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-23-52.png
+[18:23:54] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-23-53.png
+Regression metrics for bond_sell prediction:
+MAE: 0.07431913640456979
+MSE: 0.009242850086443159
+R²: 0.9861207929464906
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.544542
+BondSELL             0.445151
+RollingSTD_SELL     -0.381608
+MomentumSELL        -0.120401
+DiffFromTrendSELL   -0.099392
+VolumeSELL          -0.000060
+dtype: float64
+[18:23:54] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_18-23-54.png
+[18:24:11] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_18-24-11.png
+[18:24:12] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_18-24-11.png
+[18:31:48] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_18-31-47.png
+[18:31:48] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_18-31-48.png
+Итоговый баланс: 102643.52354021043
+Количество совершённых сделок: 45
+[18:31:48] Итоговый баланс: 102643.52354021043, Кол-во сделок: 45
+[18:31:48] Запуск эксперимента: future_window=500; rolling_window=1500
+[18:33:29] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-33-29.png
+[18:33:30] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-33-29.png
+[18:33:31] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-33-30.png
+[18:33:32] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-33-31.png
+Regression metrics for bond_sell prediction:
+MAE: 0.07392569547329686
+MSE: 0.009098832461917842
+R²: 0.9863014376098684
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.537553
+RollingSTD_SELL     -0.475330
+BondSELL             0.453593
+MomentumSELL        -0.136508
+DiffFromTrendSELL   -0.083960
+VolumeSELL          -0.000059
+dtype: float64
+[18:33:32] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_18-33-32.png
+[18:33:49] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_18-33-49.png
+[18:33:50] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_18-33-49.png
+[18:41:27] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_18-41-27.png
+[18:41:28] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_18-41-27.png
+Итоговый баланс: 101610.2977689655
+Количество совершённых сделок: 12
+[18:41:28] Итоговый баланс: 101610.2977689655, Кол-во сделок: 12
+[18:41:28] Запуск эксперимента: future_window=1000; rolling_window=10
+[18:43:08] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-43-08.png
+[18:43:09] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-43-08.png
+[18:43:10] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-43-09.png
+[18:43:10] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-43-10.png
+Regression metrics for bond_sell prediction:
+MAE: 0.10718875441766043
+MSE: 0.018352123558345947
+R²: 0.9725073953279757
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.565000
+BondSELL             0.404221
+DiffFromTrendSELL   -0.160780
+RollingSTD_SELL      0.122130
+MomentumSELL         0.111394
+VolumeSELL          -0.000142
+dtype: float64
+[18:43:11] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_18-43-11.png
+[18:43:28] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_18-43-28.png
+[18:43:29] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_18-43-28.png
+[18:51:07] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_18-51-07.png
+[18:51:08] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_18-51-07.png
+Итоговый баланс: 101453.10428478835
+Количество совершённых сделок: 22
+[18:51:08] Итоговый баланс: 101453.10428478835, Кол-во сделок: 22
+[18:51:08] Запуск эксперимента: future_window=1000; rolling_window=20
+[18:52:49] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-52-48.png
+[18:52:49] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-52-49.png
+[18:52:50] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_18-52-49.png
+[18:52:51] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_18-52-50.png
+Regression metrics for bond_sell prediction:
+MAE: 0.10537000546654149
+MSE: 0.017800754064460154
+R²: 0.9733320810840136
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.554158
+BondSELL             0.415574
+RollingSTD_SELL      0.176051
+DiffFromTrendSELL   -0.138584
+MomentumSELL         0.073023
+VolumeSELL          -0.000132
+dtype: float64
+[18:52:51] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_18-52-51.png
+[18:53:09] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_18-53-08.png
+[18:53:09] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_18-53-09.png
+[19:00:44] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_19-00-44.png
+[19:00:45] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_19-00-45.png
+Итоговый баланс: 101553.9836313108
+Количество совершённых сделок: 26
+[19:00:45] Итоговый баланс: 101553.9836313108, Кол-во сделок: 26
+[19:00:45] Запуск эксперимента: future_window=1000; rolling_window=50
+[19:02:26] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-02-26.png
+[19:02:27] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-02-26.png
+[19:02:27] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-02-27.png
+[19:02:28] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-02-28.png
+Regression metrics for bond_sell prediction:
+MAE: 0.10138483217166532
+MSE: 0.0166199044430389
+R²: 0.975097496099565
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.551133
+BondSELL             0.420174
+RollingSTD_SELL      0.185918
+DiffFromTrendSELL   -0.130959
+MomentumSELL         0.015365
+VolumeSELL          -0.000116
+dtype: float64
+[19:02:28] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_19-02-28.png
+[19:02:46] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_19-02-45.png
+[19:02:46] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_19-02-46.png
+[19:10:22] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_19-10-21.png
+[19:10:23] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_19-10-22.png
+Итоговый баланс: 101897.38845554255
+Количество совершённых сделок: 28
+[19:10:23] Итоговый баланс: 101897.38845554255, Кол-во сделок: 28
+[19:10:23] Запуск эксперимента: future_window=1000; rolling_window=100
+[19:12:04] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-12-03.png
+[19:12:04] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-12-04.png
+[19:12:05] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-12-04.png
+[19:12:06] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-12-05.png
+Regression metrics for bond_sell prediction:
+MAE: 0.09761174439291022
+MSE: 0.015499548999467405
+R²: 0.9767702509303181
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.557484
+BondSELL             0.415598
+DiffFromTrendSELL   -0.141886
+RollingSTD_SELL      0.136837
+MomentumSELL        -0.009418
+VolumeSELL          -0.000102
+dtype: float64
+[19:12:06] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_19-12-06.png
+[19:12:24] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_19-12-23.png
+[19:12:24] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_19-12-24.png
+[19:19:57] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_19-19-56.png
+[19:19:57] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_19-19-57.png
+Итоговый баланс: 101905.17943165405
+Количество совершённых сделок: 24
+[19:19:57] Итоговый баланс: 101905.17943165405, Кол-во сделок: 24
+[19:19:57] Запуск эксперимента: future_window=1000; rolling_window=200
+[19:21:38] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-21-38.png
+[19:21:39] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-21-38.png
+[19:21:40] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-21-39.png
+[19:21:40] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-21-40.png
+Regression metrics for bond_sell prediction:
+MAE: 0.09352522661589006
+MSE: 0.014297952874708425
+R²: 0.9785607179384841
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.565257
+BondSELL             0.409996
+DiffFromTrendSELL   -0.155261
+RollingSTD_SELL      0.028927
+MomentumSELL        -0.026373
+VolumeSELL          -0.000087
+dtype: float64
+[19:21:41] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_19-21-40.png
+[19:21:58] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_19-21-57.png
+[19:21:58] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_19-21-58.png
+[19:29:37] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_19-29-36.png
+[19:29:38] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_19-29-37.png
+Итоговый баланс: 102857.71667173841
+Количество совершённых сделок: 34
+[19:29:38] Итоговый баланс: 102857.71667173841, Кол-во сделок: 34
+[19:29:38] Запуск эксперимента: future_window=1000; rolling_window=500
+[19:31:18] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-31-18.png
+[19:31:19] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-31-18.png
+[19:31:20] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-31-19.png
+[19:31:21] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-31-20.png
+Regression metrics for bond_sell prediction:
+MAE: 0.08845225669272776
+MSE: 0.012837691279846844
+R²: 0.9807227236517266
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.564087
+BondSELL             0.414157
+DiffFromTrendSELL   -0.149930
+RollingSTD_SELL     -0.095149
+MomentumSELL        -0.059384
+VolumeSELL          -0.000071
+dtype: float64
+[19:31:21] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_19-31-21.png
+[19:31:38] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_19-31-38.png
+[19:31:39] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_19-31-38.png
+[19:39:14] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_19-39-14.png
+[19:39:15] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_19-39-14.png
+Итоговый баланс: 102857.71667173841
+Количество совершённых сделок: 34
+[19:39:15] Итоговый баланс: 102857.71667173841, Кол-во сделок: 34
+[19:39:15] Запуск эксперимента: future_window=1000; rolling_window=1000
+[19:40:56] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-40-55.png
+[19:40:56] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-40-56.png
+[19:40:57] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-40-57.png
+[19:40:58] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-40-57.png
+Regression metrics for bond_sell prediction:
+MAE: 0.08536668349288652
+MSE: 0.011991249443212412
+R²: 0.981946817976814
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.562863
+BondSELL             0.418259
+RollingSTD_SELL     -0.342839
+DiffFromTrendSELL   -0.144605
+MomentumSELL        -0.075847
+VolumeSELL          -0.000065
+dtype: float64
+[19:40:58] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_19-40-58.png
+[19:41:16] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_19-41-15.png
+[19:41:16] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_19-41-16.png
+[19:48:56] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_19-48-56.png
+[19:48:57] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_19-48-56.png
+Итоговый баланс: 103081.63390538417
+Количество совершённых сделок: 15
+[19:48:57] Итоговый баланс: 103081.63390538417, Кол-во сделок: 15
+[19:48:57] Запуск эксперимента: future_window=1000; rolling_window=1500
+[19:50:37] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-50-37.png
+[19:50:38] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-50-37.png
+[19:50:38] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_19-50-38.png
+[19:50:39] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_19-50-39.png
+Regression metrics for bond_sell prediction:
+MAE: 0.08272102270859791
+MSE: 0.011270838370934868
+R²: 0.9829842657316222
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.561452
+RollingSTD_SELL     -0.541747
+BondSELL             0.423856
+DiffFromTrendSELL   -0.137596
+MomentumSELL        -0.086612
+VolumeSELL          -0.000062
+dtype: float64
+[19:50:39] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_19-50-39.png
+[19:50:57] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_19-50-56.png
+[19:50:57] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_19-50-57.png
+[19:58:29] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_19-58-29.png
+[19:58:30] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_19-58-29.png
+Итоговый баланс: 101559.07104894936
+Количество совершённых сделок: 20
+[19:58:30] Итоговый баланс: 101559.07104894936, Кол-во сделок: 20
+[19:58:30] Запуск эксперимента: future_window=1500; rolling_window=10
+[20:00:11] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-00-10.png
+[20:00:12] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-00-11.png
+[20:00:12] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-00-12.png
+[20:00:13] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-00-13.png
+Regression metrics for bond_sell prediction:
+MAE: 0.12054376826401315
+MSE: 0.022466048959854646
+R²: 0.9662627751246602
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.564495
+BondSELL             0.398044
+DiffFromTrendSELL   -0.166451
+RollingSTD_SELL      0.119082
+MomentumSELL         0.118434
+VolumeSELL          -0.000149
+dtype: float64
+[20:00:13] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_20-00-13.png
+[20:00:31] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_20-00-30.png
+[20:00:31] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_20-00-31.png
+[20:08:06] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_20-08-05.png
+[20:08:06] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_20-08-06.png
+Итоговый баланс: 102054.31335922316
+Количество совершённых сделок: 32
+[20:08:06] Итоговый баланс: 102054.31335922316, Кол-во сделок: 32
+[20:08:06] Запуск эксперимента: future_window=1500; rolling_window=20
+[20:09:47] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-09-47.png
+[20:09:48] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-09-47.png
+[20:09:48] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-09-48.png
+[20:09:49] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-09-49.png
+Regression metrics for bond_sell prediction:
+MAE: 0.11897811328870107
+MSE: 0.02192916706414029
+R²: 0.9670671962748815
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.557856
+BondSELL             0.405005
+RollingSTD_SELL      0.214423
+DiffFromTrendSELL   -0.152851
+MomentumSELL         0.088375
+VolumeSELL          -0.000139
+dtype: float64
+[20:09:50] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_20-09-49.png
+[20:10:07] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_20-10-06.png
+[20:10:08] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_20-10-07.png
+[20:17:44] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_20-17-43.png
+[20:17:45] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_20-17-44.png
+Итоговый баланс: 102356.90301302208
+Количество совершённых сделок: 33
+[20:17:45] Итоговый баланс: 102356.90301302208, Кол-во сделок: 33
+[20:17:45] Запуск эксперимента: future_window=1500; rolling_window=50
+[20:19:25] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-19-25.png
+[20:19:26] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-19-25.png
+[20:19:26] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-19-26.png
+[20:19:27] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-19-27.png
+Regression metrics for bond_sell prediction:
+MAE: 0.11536817189844661
+MSE: 0.020744525984677086
+R²: 0.9688412981772198
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.554722
+BondSELL             0.409167
+RollingSTD_SELL      0.329403
+DiffFromTrendSELL   -0.145555
+MomentumSELL         0.029619
+VolumeSELL          -0.000122
+dtype: float64
+[20:19:27] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_20-19-27.png
+[20:19:45] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_20-19-44.png
+[20:19:45] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_20-19-45.png
+[20:27:18] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_20-27-17.png
+[20:27:18] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_20-27-18.png
+Итоговый баланс: 102024.01074000719
+Количество совершённых сделок: 39
+[20:27:18] Итоговый баланс: 102024.01074000719, Кол-во сделок: 39
+[20:27:18] Запуск эксперимента: future_window=1500; rolling_window=100
+[20:28:59] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-28-59.png
+[20:29:00] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-28-59.png
+[20:29:01] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-29-00.png
+[20:29:01] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-29-01.png
+Regression metrics for bond_sell prediction:
+MAE: 0.11149668854993322
+MSE: 0.01951802365369836
+R²: 0.970675446119821
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.557264
+BondSELL             0.408008
+RollingSTD_SELL      0.354348
+DiffFromTrendSELL   -0.149257
+MomentumSELL        -0.002136
+VolumeSELL          -0.000109
+dtype: float64
+[20:29:02] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_20-29-01.png
+[20:29:19] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_20-29-18.png
+[20:29:19] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_20-29-19.png
+[20:36:56] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_20-36-55.png
+[20:36:56] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_20-36-56.png
+Итоговый баланс: 101414.28976905561
+Количество совершённых сделок: 35
+[20:36:56] Итоговый баланс: 101414.28976905561, Кол-во сделок: 35
+[20:36:56] Запуск эксперимента: future_window=1500; rolling_window=200
+[20:38:37] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-38-36.png
+[20:38:37] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-38-37.png
+[20:38:38] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-38-37.png
+[20:38:39] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-38-38.png
+Regression metrics for bond_sell prediction:
+MAE: 0.10714139686752223
+MSE: 0.018142252704980273
+R²: 0.9727276418770803
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.560917
+BondSELL             0.405925
+RollingSTD_SELL      0.343248
+DiffFromTrendSELL   -0.154992
+MomentumSELL        -0.024276
+VolumeSELL          -0.000096
+dtype: float64
+[20:38:39] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_20-38-39.png
+[20:38:57] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_20-38-56.png
+[20:38:57] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_20-38-57.png
+[20:46:32] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_20-46-32.png
+[20:46:33] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_20-46-32.png
+Итоговый баланс: 100733.446092964
+Количество совершённых сделок: 18
+[20:46:33] Итоговый баланс: 100733.446092964, Кол-во сделок: 18
+[20:46:33] Запуск эксперимента: future_window=1500; rolling_window=500
+[20:48:13] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-48-12.png
+[20:48:14] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-48-13.png
+[20:48:14] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-48-14.png
+[20:48:15] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-48-15.png
+Regression metrics for bond_sell prediction:
+MAE: 0.10091655137806359
+MSE: 0.016237002881484667
+R²: 0.9755547101310312
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.563584
+BondSELL             0.406009
+RollingSTD_SELL      0.173389
+DiffFromTrendSELL   -0.157575
+MomentumSELL        -0.051973
+VolumeSELL          -0.000079
+dtype: float64
+[20:48:15] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_20-48-15.png
+[20:48:33] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_20-48-32.png
+[20:48:33] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_20-48-33.png
+[20:56:10] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_20-56-10.png
+[20:56:11] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_20-56-10.png
+Итоговый баланс: 100733.446092964
+Количество совершённых сделок: 18
+[20:56:11] Итоговый баланс: 100733.446092964, Кол-во сделок: 18
+[20:56:11] Запуск эксперимента: future_window=1500; rolling_window=1000
+[20:57:52] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-57-51.png
+[20:57:52] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-57-52.png
+[20:57:53] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_20-57-52.png
+[20:57:54] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_20-57-53.png
+Regression metrics for bond_sell prediction:
+MAE: 0.09504767231862324
+MSE: 0.014588660938196251
+R²: 0.9779753049696852
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.567130
+BondSELL             0.408027
+RollingSTD_SELL     -0.280517
+DiffFromTrendSELL   -0.159102
+MomentumSELL        -0.064498
+VolumeSELL          -0.000071
+dtype: float64
+[20:57:54] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_20-57-54.png
+[20:58:12] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_20-58-11.png
+[20:58:12] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_20-58-12.png
+[21:05:48] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_21-05-47.png
+[21:05:48] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_21-05-48.png
+Итоговый баланс: 100718.62809001897
+Количество совершённых сделок: 22
+[21:05:48] Итоговый баланс: 100718.62809001897, Кол-во сделок: 22
+[21:05:48] Запуск эксперимента: future_window=1500; rolling_window=1500
+[21:07:29] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-07-29.png
+[21:07:30] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-07-29.png
+[21:07:31] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-07-30.png
+[21:07:31] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-07-31.png
+Regression metrics for bond_sell prediction:
+MAE: 0.09074077077870298
+MSE: 0.013353884156669051
+R²: 0.9797817477426544
+
+Feature importance (по абсолютной величине коэффициентов):
+RollingSTD_SELL     -0.717974
+TrendSELL            0.570328
+BondSELL             0.411974
+DiffFromTrendSELL   -0.158354
+MomentumSELL        -0.073036
+VolumeSELL          -0.000066
+dtype: float64
+[21:07:32] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_21-07-32.png
+[21:07:49] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_21-07-48.png
+[21:07:49] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_21-07-49.png
+[21:15:25] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_21-15-24.png
+[21:15:25] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_21-15-25.png
+Итоговый баланс: 100392.2900903159
+Количество совершённых сделок: 20
+[21:15:25] Итоговый баланс: 100392.2900903159, Кол-во сделок: 20
+[21:15:25] Запуск эксперимента: future_window=2000; rolling_window=10
+[21:17:06] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-17-06.png
+[21:17:07] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-17-06.png
+[21:17:08] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-17-07.png
+[21:17:09] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-17-08.png
+Regression metrics for bond_sell prediction:
+MAE: 0.13228294075569372
+MSE: 0.026522869465680474
+R²: 0.960066794589538
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.567480
+BondSELL             0.388127
+DiffFromTrendSELL   -0.179353
+RollingSTD_SELL      0.154215
+MomentumSELL         0.129865
+VolumeSELL          -0.000151
+dtype: float64
+[21:17:09] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_21-17-09.png
+[21:17:26] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_21-17-25.png
+[21:17:26] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_21-17-26.png
+[21:25:02] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_21-25-01.png
+[21:25:03] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_21-25-02.png
+Итоговый баланс: 102972.80205895034
+Количество совершённых сделок: 35
+[21:25:03] Итоговый баланс: 102972.80205895034, Кол-во сделок: 35
+[21:25:03] Запуск эксперимента: future_window=2000; rolling_window=20
+[21:26:44] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-26-43.png
+[21:26:44] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-26-44.png
+[21:26:45] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-26-44.png
+[21:26:46] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-26-45.png
+Regression metrics for bond_sell prediction:
+MAE: 0.1305620117387235
+MSE: 0.025877109832960165
+R²: 0.961036875210013
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.563391
+BondSELL             0.392636
+RollingSTD_SELL      0.243400
+DiffFromTrendSELL   -0.170755
+MomentumSELL         0.104461
+VolumeSELL          -0.000140
+dtype: float64
+[21:26:46] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_21-26-46.png
+[21:27:04] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_21-27-03.png
+[21:27:04] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_21-27-04.png
+[21:34:40] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_21-34-39.png
+[21:34:40] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_21-34-40.png
+Итоговый баланс: 103394.89975595563
+Количество совершённых сделок: 40
+[21:34:40] Итоговый баланс: 103394.89975595563, Кол-во сделок: 40
+[21:34:40] Запуск эксперимента: future_window=2000; rolling_window=50
+[21:36:21] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-36-21.png
+[21:36:22] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-36-21.png
+[21:36:23] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-36-22.png
+[21:36:24] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-36-23.png
+Regression metrics for bond_sell prediction:
+MAE: 0.1265287018430257
+MSE: 0.024446155247167863
+R²: 0.9631853537222466
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.559755
+BondSELL             0.397523
+RollingSTD_SELL      0.349542
+DiffFromTrendSELL   -0.162232
+MomentumSELL         0.042759
+VolumeSELL          -0.000123
+dtype: float64
+[21:36:24] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_21-36-24.png
+[21:36:42] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_21-36-41.png
+[21:36:42] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_21-36-42.png
+[21:44:21] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_21-44-21.png
+[21:44:22] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_21-44-21.png
+Итоговый баланс: 103200.63937129552
+Количество совершённых сделок: 22
+[21:44:22] Итоговый баланс: 103200.63937129552, Кол-во сделок: 22
+[21:44:22] Запуск эксперимента: future_window=2000; rolling_window=100
+[21:46:02] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-46-02.png
+[21:46:03] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-46-02.png
+[21:46:04] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-46-03.png
+[21:46:05] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-46-04.png
+Regression metrics for bond_sell prediction:
+MAE: 0.12248143425699386
+MSE: 0.023065428441131252
+R²: 0.9652550273474637
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.564371
+RollingSTD_SELL      0.457155
+BondSELL             0.394181
+DiffFromTrendSELL   -0.170190
+MomentumSELL         0.012945
+VolumeSELL          -0.000109
+dtype: float64
+[21:46:05] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_21-46-05.png
+[21:46:22] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_21-46-22.png
+[21:46:23] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_21-46-22.png
+[21:53:58] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_21-53-57.png
+[21:53:58] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_21-53-58.png
+Итоговый баланс: 102088.04199222592
+Количество совершённых сделок: 10
+[21:53:58] Итоговый баланс: 102088.04199222592, Кол-во сделок: 10
+[21:53:58] Запуск эксперимента: future_window=2000; rolling_window=200
+[21:55:39] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-55-39.png
+[21:55:40] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-55-39.png
+[21:55:40] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_21-55-40.png
+[21:55:41] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_21-55-41.png
+Regression metrics for bond_sell prediction:
+MAE: 0.1177903093318099
+MSE: 0.02147528990050431
+R²: 0.9676328715396029
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.562919
+RollingSTD_SELL      0.513909
+BondSELL             0.397143
+DiffFromTrendSELL   -0.165776
+MomentumSELL        -0.018154
+VolumeSELL          -0.000097
+dtype: float64
+[21:55:41] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_21-55-41.png
+[21:55:59] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_21-55-59.png
+[21:55:59] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_21-55-59.png
+[22:03:37] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_22-03-37.png
+[22:03:38] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_22-03-37.png
+Итоговый баланс: 101970.14928128349
+Количество совершённых сделок: 7
+[22:03:38] Итоговый баланс: 101970.14928128349, Кол-во сделок: 7
+[22:03:38] Запуск эксперимента: future_window=2000; rolling_window=500
+[22:05:19] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-05-19.png
+[22:05:20] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-05-19.png
+[22:05:21] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-05-20.png
+[22:05:21] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-05-21.png
+Regression metrics for bond_sell prediction:
+MAE: 0.10908873519343541
+MSE: 0.018763586912811832
+R²: 0.9716723638187055
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.571246
+BondSELL             0.393520
+DiffFromTrendSELL   -0.177726
+RollingSTD_SELL      0.169828
+MomentumSELL        -0.039290
+VolumeSELL          -0.000077
+dtype: float64
+[22:05:22] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_22-05-21.png
+[22:05:39] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_22-05-38.png
+[22:05:39] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_22-05-39.png
+[22:13:14] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_22-13-14.png
+[22:13:15] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_22-13-14.png
+Итоговый баланс: 101970.14928128349
+Количество совершённых сделок: 7
+[22:13:15] Итоговый баланс: 101970.14928128349, Кол-во сделок: 7
+[22:13:15] Запуск эксперимента: future_window=2000; rolling_window=1000
+[22:14:56] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-14-55.png
+[22:14:56] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-14-56.png
+[22:14:57] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-14-56.png
+[22:14:58] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-14-57.png
+Regression metrics for bond_sell prediction:
+MAE: 0.10214016432766371
+MSE: 0.016736173375448825
+R²: 0.9746608424067759
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.575197
+RollingSTD_SELL     -0.495997
+BondSELL             0.397220
+DiffFromTrendSELL   -0.177977
+MomentumSELL        -0.053820
+VolumeSELL          -0.000069
+dtype: float64
+[22:14:58] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_22-14-58.png
+[22:15:15] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_22-15-15.png
+[22:15:16] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_22-15-15.png
+[22:22:49] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_22-22-48.png
+[22:22:49] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_22-22-49.png
+Итоговый баланс: 103339.29906155445
+Количество совершённых сделок: 12
+[22:22:49] Итоговый баланс: 103339.29906155445, Кол-во сделок: 12
+[22:22:49] Запуск эксперимента: future_window=2000; rolling_window=1500
+[22:24:30] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-24-29.png
+[22:24:31] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-24-30.png
+[22:24:31] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-24-31.png
+[22:24:32] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-24-31.png
+Regression metrics for bond_sell prediction:
+MAE: 0.09823065458752245
+MSE: 0.015529380634067037
+R²: 0.9764214377840411
+
+Feature importance (по абсолютной величине коэффициентов):
+RollingSTD_SELL     -0.683918
+TrendSELL            0.574288
+BondSELL             0.402819
+DiffFromTrendSELL   -0.171469
+MomentumSELL        -0.065645
+VolumeSELL          -0.000066
+dtype: float64
+[22:24:32] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_22-24-32.png
+[22:24:50] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_22-24-49.png
+[22:24:50] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_22-24-50.png
+[22:32:22] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_22-32-22.png
+[22:32:23] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_22-32-22.png
+Итоговый баланс: 103481.98803588029
+Количество совершённых сделок: 17
+[22:32:23] Итоговый баланс: 103481.98803588029, Кол-во сделок: 17
+[22:32:23] Запуск эксперимента: future_window=2500; rolling_window=10
+[22:34:04] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-34-03.png
+[22:34:05] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-34-04.png
+[22:34:05] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-34-05.png
+[22:34:06] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-34-06.png
+Regression metrics for bond_sell prediction:
+MAE: 0.14031650197789466
+MSE: 0.029770561475532788
+R²: 0.9550524198642079
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.560681
+BondSELL             0.390243
+RollingSTD_SELL      0.340886
+DiffFromTrendSELL   -0.170438
+MomentumSELL         0.120986
+VolumeSELL          -0.000139
+dtype: float64
+[22:34:06] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_22-34-06.png
+[22:34:24] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_22-34-23.png
+[22:34:24] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_22-34-24.png
+[22:41:58] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_22-41-58.png
+[22:41:59] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_22-41-58.png
+Итоговый баланс: 102211.37158584445
+Количество совершённых сделок: 30
+[22:41:59] Итоговый баланс: 102211.37158584445, Кол-во сделок: 30
+[22:41:59] Запуск эксперимента: future_window=2500; rolling_window=20
+[22:43:40] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-43-39.png
+[22:43:40] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-43-40.png
+[22:43:41] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-43-40.png
+[22:43:42] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-43-41.png
+Regression metrics for bond_sell prediction:
+MAE: 0.13870666209475943
+MSE: 0.029155179228192347
+R²: 0.955978795007016
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.552863
+RollingSTD_SELL      0.456597
+BondSELL             0.398318
+DiffFromTrendSELL   -0.154545
+MomentumSELL         0.088894
+VolumeSELL          -0.000128
+dtype: float64
+[22:43:42] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_22-43-42.png
+[22:43:59] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_22-43-59.png
+[22:44:00] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_22-43-59.png
+[22:51:38] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_22-51-38.png
+[22:51:39] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_22-51-38.png
+Итоговый баланс: 102005.95441876454
+Количество совершённых сделок: 13
+[22:51:39] Итоговый баланс: 102005.95441876454, Кол-во сделок: 13
+[22:51:39] Запуск эксперимента: future_window=2500; rolling_window=50
+[22:53:19] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-53-19.png
+[22:53:20] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-53-19.png
+[22:53:21] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_22-53-20.png
+[22:53:22] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_22-53-21.png
+Regression metrics for bond_sell prediction:
+MAE: 0.13422096730628266
+MSE: 0.027532561619128197
+R²: 0.9584201816729119
+
+Feature importance (по абсолютной величине коэффициентов):
+RollingSTD_SELL      0.569970
+TrendSELL            0.550214
+BondSELL             0.402338
+DiffFromTrendSELL   -0.147876
+MomentumSELL         0.030455
+VolumeSELL          -0.000112
+dtype: float64
+[22:53:22] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_22-53-22.png
+[22:53:39] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_22-53-38.png
+[22:53:39] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_22-53-39.png
+[23:01:13] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_23-01-12.png
+[23:01:13] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_23-01-13.png
+Итоговый баланс: 102005.95441876454
+Количество совершённых сделок: 13
+[23:01:13] Итоговый баланс: 102005.95441876454, Кол-во сделок: 13
+[23:01:13] Запуск эксперимента: future_window=2500; rolling_window=100
+[23:02:54] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-02-53.png
+[23:02:55] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-02-54.png
+[23:02:55] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-02-55.png
+[23:02:56] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-02-56.png
+Regression metrics for bond_sell prediction:
+MAE: 0.12960154279206143
+MSE: 0.025930766747899084
+R²: 0.9608288111854074
+
+Feature importance (по абсолютной величине коэффициентов):
+RollingSTD_SELL      0.590157
+TrendSELL            0.552630
+BondSELL             0.401660
+DiffFromTrendSELL   -0.150970
+MomentumSELL        -0.002105
+VolumeSELL          -0.000100
+dtype: float64
+[23:02:56] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_23-02-56.png
+[23:03:14] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_23-03-13.png
+[23:03:14] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_23-03-14.png
+[23:10:46] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_23-10-45.png
+[23:10:46] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_23-10-46.png
+Итоговый баланс: 102008.39493726214
+Количество совершённых сделок: 9
+[23:10:46] Итоговый баланс: 102008.39493726214, Кол-во сделок: 9
+[23:10:46] Запуск эксперимента: future_window=2500; rolling_window=200
+[23:12:27] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-12-27.png
+[23:12:28] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-12-28.png
+[23:12:29] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-12-28.png
+[23:12:30] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-12-29.png
+Regression metrics for bond_sell prediction:
+MAE: 0.1245863378114773
+MSE: 0.02419362013240694
+R²: 0.9634348602126312
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.554685
+RollingSTD_SELL      0.518170
+BondSELL             0.401672
+DiffFromTrendSELL   -0.153012
+MomentumSELL        -0.026743
+VolumeSELL          -0.000087
+dtype: float64
+[23:12:30] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_23-12-30.png
+[23:12:47] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_23-12-47.png
+[23:12:48] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_23-12-47.png
+[23:20:22] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_23-20-22.png
+[23:20:23] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_23-20-22.png
+Итоговый баланс: 102004.0062652074
+Количество совершённых сделок: 11
+[23:20:23] Итоговый баланс: 102004.0062652074, Кол-во сделок: 11
+[23:20:23] Запуск эксперимента: future_window=2500; rolling_window=500
+[23:22:04] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-22-03.png
+[23:22:04] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-22-04.png
+[23:22:05] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-22-04.png
+[23:22:06] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-22-05.png
+Regression metrics for bond_sell prediction:
+MAE: 0.1168526045822983
+MSE: 0.021554012835746556
+R²: 0.9673664633032214
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.552281
+BondSELL             0.408696
+DiffFromTrendSELL   -0.143585
+RollingSTD_SELL      0.087637
+MomentumSELL        -0.061923
+VolumeSELL          -0.000072
+dtype: float64
+[23:22:06] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_23-22-06.png
+[23:22:23] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_23-22-23.png
+[23:22:24] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_23-22-23.png
+[23:29:56] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_23-29-56.png
+[23:29:57] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_23-29-56.png
+Итоговый баланс: 102004.0062652074
+Количество совершённых сделок: 11
+[23:29:57] Итоговый баланс: 102004.0062652074, Кол-во сделок: 11
+[23:29:57] Запуск эксперимента: future_window=2500; rolling_window=1000
+[23:31:37] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-31-37.png
+[23:31:38] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-31-38.png
+[23:31:39] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-31-38.png
+[23:31:40] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-31-39.png
+Regression metrics for bond_sell prediction:
+MAE: 0.11003969293462783
+MSE: 0.019349125797500574
+R²: 0.9706218440264156
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.560773
+RollingSTD_SELL     -0.441411
+BondSELL             0.406745
+DiffFromTrendSELL   -0.154028
+MomentumSELL        -0.068428
+VolumeSELL          -0.000063
+dtype: float64
+[23:31:40] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_23-31-40.png
+[23:31:57] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_23-31-57.png
+[23:31:58] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_23-31-57.png
+[23:39:34] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_23-39-34.png
+[23:39:35] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_23-39-34.png
+Итоговый баланс: 102308.0048606337
+Количество совершённых сделок: 16
+[23:39:35] Итоговый баланс: 102308.0048606337, Кол-во сделок: 16
+[23:39:35] Запуск эксперимента: future_window=2500; rolling_window=1500
+[23:41:18] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-41-18.png
+[23:41:19] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-41-18.png
+[23:41:20] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-41-19.png
+[23:41:21] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-41-20.png
+Regression metrics for bond_sell prediction:
+MAE: 0.10646483979433212
+MSE: 0.018170810322090912
+R²: 0.9723247131684841
+
+Feature importance (по абсолютной величине коэффициентов):
+RollingSTD_SELL     -0.674533
+TrendSELL            0.564533
+BondSELL             0.406948
+DiffFromTrendSELL   -0.157585
+MomentumSELL        -0.073465
+VolumeSELL          -0.000057
+dtype: float64
+[23:41:21] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_23-41-21.png
+[23:41:39] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_23-41-38.png
+[23:41:39] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_23-41-39.png
+[23:49:18] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_23-49-18.png
+[23:49:19] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_23-49-18.png
+Итоговый баланс: 102003.28705832538
+Количество совершённых сделок: 15
+[23:49:19] Итоговый баланс: 102003.28705832538, Кол-во сделок: 15
+[23:49:19] Запуск эксперимента: future_window=3000; rolling_window=10
+[23:51:00] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-50-59.png
+[23:51:01] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-51-00.png
+[23:51:01] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-13_23-51-01.png
+[23:51:02] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-13_23-51-02.png
+Regression metrics for bond_sell prediction:
+MAE: 0.15052890381590392
+MSE: 0.034125165265309176
+R²: 0.9483303526919522
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.559412
+RollingSTD_SELL      0.390421
+BondSELL             0.385820
+DiffFromTrendSELL   -0.173593
+MomentumSELL         0.124044
+VolumeSELL          -0.000140
+dtype: float64
+[23:51:02] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-13_23-51-02.png
+[23:51:20] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-13_23-51-20.png
+[23:51:20] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-13_23-51-20.png
+[23:58:55] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-13_23-58-54.png
+[23:58:55] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-13_23-58-55.png
+Итоговый баланс: 99953.25111223245
+Количество совершённых сделок: 10
+[23:58:56] Итоговый баланс: 99953.25111223245, Кол-во сделок: 10
+[23:58:56] Запуск эксперимента: future_window=3000; rolling_window=20
+[00:00:37] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-00-36.png
+[00:00:37] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-00-37.png
+[00:00:38] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-00-37.png
+[00:00:39] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-00-38.png
+Regression metrics for bond_sell prediction:
+MAE: 0.1488002773500673
+MSE: 0.0334399961333429
+R²: 0.9493643690935414
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.552759
+RollingSTD_SELL      0.504460
+BondSELL             0.392760
+DiffFromTrendSELL   -0.159999
+MomentumSELL         0.094207
+VolumeSELL          -0.000129
+dtype: float64
+[00:00:39] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-14_00-00-39.png
+[00:00:57] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-14_00-00-56.png
+[00:00:57] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-14_00-00-57.png
+[00:08:37] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-14_00-08-36.png
+[00:08:37] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-14_00-08-37.png
+Итоговый баланс: 99955.37233631418
+Количество совершённых сделок: 6
+[00:08:37] Итоговый баланс: 99955.37233631418, Кол-во сделок: 6
+[00:08:37] Запуск эксперимента: future_window=3000; rolling_window=50
+[00:10:21] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-10-21.png
+[00:10:22] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-10-21.png
+[00:10:23] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-10-22.png
+[00:10:24] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-10-23.png
+Regression metrics for bond_sell prediction:
+MAE: 0.14369671222226169
+MSE: 0.031505906900817886
+R²: 0.9522830182441114
+
+Feature importance (по абсолютной величине коэффициентов):
+RollingSTD_SELL      0.570904
+TrendSELL            0.553722
+BondSELL             0.393477
+DiffFromTrendSELL   -0.160245
+MomentumSELL         0.041702
+VolumeSELL          -0.000113
+dtype: float64
+[00:10:24] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-14_00-10-24.png
+[00:10:42] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-14_00-10-41.png
+[00:10:42] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-14_00-10-42.png
+[00:18:16] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-14_00-18-16.png
+[00:18:17] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-14_00-18-16.png
+Итоговый баланс: 99955.3887865934
+Количество совершённых сделок: 8
+[00:18:17] Итоговый баланс: 99955.3887865934, Кол-во сделок: 8
+[00:18:17] Запуск эксперимента: future_window=3000; rolling_window=100
+[00:20:01] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-20-00.png
+[00:20:01] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-20-01.png
+[00:20:02] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-20-01.png
+[00:20:03] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-20-02.png
+Regression metrics for bond_sell prediction:
+MAE: 0.13837322961721757
+MSE: 0.029495017094601658
+R²: 0.9553159908535075
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.560321
+RollingSTD_SELL      0.479978
+BondSELL             0.389128
+DiffFromTrendSELL   -0.171193
+MomentumSELL         0.015233
+VolumeSELL          -0.000099
+dtype: float64
+[00:20:03] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-14_00-20-03.png
+[00:20:21] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-14_00-20-20.png
+[00:20:21] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-14_00-20-21.png
+[00:28:07] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-14_00-28-07.png
+[00:28:08] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-14_00-28-07.png
+Итоговый баланс: 99956.80506263218
+Количество совершённых сделок: 4
+[00:28:08] Итоговый баланс: 99956.80506263218, Кол-во сделок: 4
+[00:28:08] Запуск эксперимента: future_window=3000; rolling_window=200
+[00:29:56] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-29-56.png
+[00:29:57] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-29-56.png
+[00:29:58] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-29-57.png
+[00:29:59] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-29-58.png
+Regression metrics for bond_sell prediction:
+MAE: 0.13308989454474818
+MSE: 0.027527765644289964
+R²: 0.9582762104342231
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.562484
+RollingSTD_SELL      0.449127
+BondSELL             0.389086
+DiffFromTrendSELL   -0.173399
+MomentumSELL        -0.010624
+VolumeSELL          -0.000086
+dtype: float64
+[00:29:59] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-14_00-29-59.png
+[00:30:17] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-14_00-30-16.png
+[00:30:17] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-14_00-30-17.png
+[00:37:59] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-14_00-37-58.png
+[00:37:59] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-14_00-37-59.png
+Итоговый баланс: 99953.39041655145
+Количество совершённых сделок: 6
+[00:37:59] Итоговый баланс: 99953.39041655145, Кол-во сделок: 6
+[00:37:59] Запуск эксперимента: future_window=3000; rolling_window=500
+[00:39:38] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-39-37.png
+[00:39:39] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-39-38.png
+[00:39:39] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-39-39.png
+[00:39:40] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-39-40.png
+Regression metrics for bond_sell prediction:
+MAE: 0.1248941135635605
+MSE: 0.024564085818231576
+R²: 0.9627038682745171
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.569048
+BondSELL             0.387321
+DiffFromTrendSELL   -0.181726
+RollingSTD_SELL      0.044888
+MomentumSELL        -0.033916
+VolumeSELL          -0.000067
+dtype: float64
+[00:39:40] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-14_00-39-40.png
+[00:39:58] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-14_00-39-57.png
+[00:39:58] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-14_00-39-58.png
+[00:47:43] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-14_00-47-42.png
+[00:47:43] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-14_00-47-43.png
+Итоговый баланс: 99953.39041655145
+Количество совершённых сделок: 6
+[00:47:43] Итоговый баланс: 99953.39041655145, Кол-во сделок: 6
+[00:47:43] Запуск эксперимента: future_window=3000; rolling_window=1000
+[00:49:26] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-49-25.png
+[00:49:27] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-49-26.png
+[00:49:27] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-49-27.png
+[00:49:28] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-49-28.png
+Regression metrics for bond_sell prediction:
+MAE: 0.11872760531951909
+MSE: 0.022411392063800398
+R²: 0.9658660404976445
+
+Feature importance (по абсолютной величине коэффициентов):
+TrendSELL            0.578258
+RollingSTD_SELL     -0.566664
+BondSELL             0.384355
+DiffFromTrendSELL   -0.193903
+MomentumSELL        -0.040740
+VolumeSELL          -0.000057
+dtype: float64
+[00:49:28] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-14_00-49-28.png
+[00:49:46] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-14_00-49-45.png
+[00:49:46] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-14_00-49-46.png
+[00:57:21] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-14_00-57-21.png
+[00:57:22] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-14_00-57-21.png
+Итоговый баланс: 101217.14724935757
+Количество совершённых сделок: 11
+[00:57:22] Итоговый баланс: 101217.14724935757, Кол-во сделок: 11
+[00:57:22] Запуск эксперимента: future_window=3000; rolling_window=1500
+[00:59:05] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-59-04.png
+[00:59:06] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-59-05.png
+[00:59:06] График 'bond_prices' сохранён: ./plots/bond_prices_2025-04-14_00-59-06.png
+[00:59:07] График 'deviations_from_trend' сохранён: ./plots/deviations_from_trend_2025-04-14_00-59-07.png
+Regression metrics for bond_sell prediction:
+MAE: 0.11454547553528584
+MSE: 0.021002334609087413
+R²: 0.9679068203521438
+
+Feature importance (по абсолютной величине коэффициентов):
+RollingSTD_SELL     -0.696107
+TrendSELL            0.581203
+BondSELL             0.385178
+DiffFromTrendSELL   -0.196024
+MomentumSELL        -0.045926
+VolumeSELL          -0.000051
+dtype: float64
+[00:59:08] График 'feature_importance' сохранён: ./plots/feature_importance_2025-04-14_00-59-08.png
+[00:59:25] График 'predicted_vs_actual' сохранён: ./plots/predicted_vs_actual_2025-04-14_00-59-25.png
+[00:59:26] График 'equity_curve' сохранён: ./plots/equity_curve_2025-04-14_00-59-25.png
+[01:07:02] График 'threshold_sensitivity' сохранён: ./plots/threshold_sensitivity_2025-04-14_01-07-02.png
+[01:07:03] График 'trading_positions' сохранён: ./plots/trading_positions_2025-04-14_01-07-02.png
+Итоговый баланс: 99952.35162930559
+Количество совершённых сделок: 10
+[01:07:03] Итоговый баланс: 99952.35162930559, Кол-во сделок: 10
+[01:07:03] 3D-график сохранён: ./plots/3D_balance_plot_2025-04-14_01-07-03.png
+(.venv) draiqws@draiqws-ROG-Strix-G513RM-G513RM:~/PycharmProjects/MMP$
